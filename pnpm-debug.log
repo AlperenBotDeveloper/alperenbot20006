@@ -1,0 +1,54 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      //1: "describes your app and its dependencies"
+      //2: "https://docs.npmjs.com/files/package.json"
+      //3: "updating this file will download and update your packages"
+      name: "hello-express"
+      version: "0.0.1"
+      description: "Glitch Discord Botu."
+      main: "bot.js"
+      scripts: 
+        start: "node bot.js"
+      dependencies: 
+        discord.js: "^12.5.0"
+        quick.db: "^7.1.2"
+        moment: "^2.29.1"
+        superagent: "^6.1.0"
+        moment-duration-format: "^2.3.2"
+        dateformat: "^4.4.0"
+        common-tags: "^1.8.0"
+      engines: 
+        node: "12.x"
+      repository: 
+        url: "https://glitch.com/edit/#!/hello-express"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "glitch"
+        - "express"
+      gitHead: "17e924617a6cd84ae8e591a5ebc90b15710b9e87"
+      readme: "ERROR: No README data found!"
+      _id: "hello-express@0.0.1"
+    prefix: "/app"
+  3 warn pnpm: 
+    message: "Moving discord.js that was installed by a different package manager to \"node_modules/.ignored"
+    prefix: "/app"
+  4 error pnpm: 
+    message: 
+      errno: -39
+      code: "ENOTEMPTY"
+      syscall: "rename"
+      path: "/rbd/pnpm-volume/d919d620-ce18-487d-b90c-54ec53c24e87/node_modules/discord.js"
+      dest: "/rbd/pnpm-volume/d919d620-ce18-487d-b90c-54ec53c24e87/node_modules/.ignored/discord.js"
+    err: 
+      name: "Error"
+      message: "ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/d919d620-ce18-487d-b90c-54ec53c24e87/node_modules/discord.js' -> '/rbd/pnpm-volume/d919d620-ce18-487d-b90c-54ec53c24e87/node_modules/.ignored/discord.js'"
+      code: "ENOTEMPTY"
+      stack: "Error: ENOTEMPTY: directory not empty, rename '/rbd/pnpm-volume/d919d620-ce18-487d-b90c-54ec53c24e87/node_modules/discord.js' -> '/rbd/pnpm-volume/d919d620-ce18-487d-b90c-54ec53c24e87/node_modules/.ignored/discord.js'"
